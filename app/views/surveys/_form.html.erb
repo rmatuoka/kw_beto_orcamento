@@ -1,0 +1,16 @@
+<%= form_for @survey do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :destino %><br />
+    <%= f.text_field :destino, :class => "Form" %>
+  </p>
+  <p>
+    <%= f.label :objeto %><br />
+    <%= f.text_field :objeto, :class => "Form" %>
+  </p>
+  <p>
+    <%= f.label :valor %><br />
+    <%= f.text_field :valor, :class => "Form" %>
+  </p>
+  <p><%= f.submit "Enviar!" %></p>
+<% end %>

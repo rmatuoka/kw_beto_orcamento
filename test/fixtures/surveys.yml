@@ -1,0 +1,9 @@
+one:
+  destino: MyString
+  objeto: MyString
+  valor: 9.99
+
+two:
+  destino: MyString
+  objeto: MyString
+  valor: 9.99

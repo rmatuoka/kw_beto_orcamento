@@ -1,0 +1,114 @@
+body, h1, h2, label
+{
+	margin:0px;
+	padding:0px;
+}
+
+*
+{
+	font-family:Tahoma;
+}
+
+#container
+{
+	width:97%;
+}
+
+#container h1
+{
+	width:100%;
+	background-color:#f2f2f2;
+	border-top:#e5e5e5;
+	font-size:17px;
+	color:#4b8f00;
+	font-weight:normal;
+	padding:10px;
+}
+
+	#container #MainBox
+	{
+		width:99%;
+		padding:10px;
+		background-image:url('/images/bg_all.jpg');
+		background-repeat:repeat-x;
+		min-height:500px;
+	}
+	
+	
+	#container #MainBox p
+	{
+		font-size:12px;
+		color:#2f5c00;
+	}
+	
+	#container #MainBox label
+	{
+		font-size:15px;
+		color:#2f5c00;
+	}
+	
+	#container #MainBox .Form
+	{
+		border:1px solid #bfdda3;
+		font-size:12px;
+		color:#2f5c00;
+		height:26px;
+		width:99%;
+		margin-bottom:20px;
+	}
+	
+	#container #MainBox #survey_submit
+	{
+		border:1px solid #bfdda3;
+		font-size:15px;
+		color:#4b8f00;
+		height:23px;
+		background-image:url('/images/bg_botao.jpg');
+		float:right;
+		cursor:pointer;
+	}
+	
+	#flash_notice, #flash_error, #flash_alert {
+	  padding: 5px 8px;
+	  margin: 10px 0;
+	}
+
+	#flash_notice {
+	  background-color: #CFC;
+	  border: solid 1px #6C6;
+	}
+
+	#flash_error, #flash_alert {
+	  background-color: #FCC;
+	  border: solid 1px #C66;
+	}
+
+	.error_messages {
+	  width: 99%;
+	  border: 2px solid #CF0000;
+	  padding: 0px;
+	  padding-bottom: 12px;
+	  margin-bottom: 20px;
+	  background-color: #fff;
+	  font-size: 12px;
+	}
+
+	.error_messages h2 {
+	  text-align: left;
+	  font-weight: bold;
+	  padding: 5px 10px;
+	  font-size: 12px;
+	  margin: 0;
+	  background-color: #c00;
+	  color: #fff;
+	}
+
+	.error_messages p {
+	  margin: 8px 10px;
+	}
+
+	.error_messages ul {
+	  margin: 0;
+	}
+	
+	
