@@ -5,7 +5,7 @@ class SurveysController < ApplicationController
 
   def show
     @survey = Survey.find(params[:id])
-    cookies.delete(:respondeu)
+    #cookies.delete(:respondeu)
   end
 
   def new

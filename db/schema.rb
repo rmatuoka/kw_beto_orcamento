@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(:version => 20111003180722) do
   create_table "surveys", :force => true do |t|
     t.string   "destino"
     t.string   "objeto"
-    t.decimal  "valor"
+    t.string   "valor"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
